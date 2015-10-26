@@ -1,7 +1,7 @@
 # tempo-translations
 ## Instructions for translators
 
-Getting familiar with the project
+### Getting familiar with the project
 Start by opening the tempo-translations project on GitHub
 
 
@@ -24,37 +24,37 @@ Where xx_XX is the country and language code. The files are very simply structur
 
 The third file is the file that the translator will be working in and the only one that he or she will change. A translator is either improving an existing translation or adding new translations. Each use case has slightly different working methods.
 
-Improving existing translations
+#### Improving existing translations
 If the translator is interested in improving the existing translation, then he or she is free to work on the third file, which contains all translated strings for the specified language. Simply change the text in the language and commit your changes to that file. See “How to work on Tempo translations” in this document on how to get started.
 
-Adding translations
+#### Adding translations
 The two “missing-” files contain strings that have not yet been translated for the specified language. The strings for the admin sections in a separate file. Strings in these files are in the default language, English. If the translator is interested in adding translations for the specified language then he or she needs to copy and paste the strings that are going to be translated from the “missing-” files into the tempo-i18n_xx_XX.properties, at the end of the file.
 
 
-# How to work on Tempo translations
-## Getting started
+## How to work on Tempo translations
+### Getting started with translation work
 Create GitHub account (if you don’t have one) and sign in.
 
 To work on the translations you can either
 1. Clone the project to your computer (see https://help.github.com/ for more details) and work on it locally
 1. Work on the files directly in the browser by pressing the “Edit” button in the file you are going to work on
 
-Whichever you pick, create a branch for new translation work with a descriptive name (example: timesheets-7.13-polish) and commit/propose changes to that branch
+Whichever you pick, create a *branch* for new translation work with a descriptive name (example: timesheets-7.13-polish) and commit/propose changes to that branch
 
-**Be sure to create a branch!** See screenshot below that shows the correct option for the in-browser editor.
+**Be sure to create a branch when starting new translation work!** See screenshot below that shows the correct option for the in-browser editor.
 
 !(images/commit-new-branch.png)
 
-## Making changes
+### Making changes
 Now you have created a branch which you will be working in until you are done with your translation work. Be sure to make all changes to your branch, not the master branch.
 
 When returning to the tempo-translations project later, you can find your branch on the “branches” page here: https://github.com/TempoSoftware/tempo-translations/branches
 
-When committing/proposing a change later, *be sure to select your branch* and select "Commit directly to...", **don’t create additional branches**. See screenshot below for the correct option.
+When committing/proposing a change later, *be sure to select your branch* and select "Commit directly to...", **don’t create additional branches when continuing translation work later!** See screenshot below for the correct option.
 
 !(images/commit-directly.png)
 
-When you are done with your translation work, you need to create a pull request. This can be done on your branches’ page on GitHub and pressing the green “Create pull request” button
+When you are done with your translation work, you need to create a *pull request*. This can be done on your branches’ page on GitHub and pressing the green “Create pull request” button
 
 !(images/create-pull-request-icon.png)
 
